@@ -1,3 +1,4 @@
+
 import sqlite3
 import json
 from datetime import datetime
@@ -86,7 +87,9 @@ def find_existing_score(pid):
     except Exception as e:
         #print(str(e))
         return False
+    
 loc = '/home/kapuska/Templates/RC_2015-01.txt'
+
 if __name__ == '__main__':
     create_table()
     row_counter = 0
